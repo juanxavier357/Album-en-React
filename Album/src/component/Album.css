@@ -1,0 +1,66 @@
+.album {
+    display: flex;
+    border-style: outset;
+    border-radius: 20px;
+}
+
+.album__image {
+    margin: 0;
+    padding: 0;
+    border-radius: 20px 0 0 20px;
+}
+
+img {
+    width: 300px;
+
+}
+
+.album__content {
+    width: 350px;
+    padding: 10px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.album__content--title p {
+    margin: 0;
+    color: grey;
+    font-style: italic;
+}
+
+.album__content--description {
+    margin: 30px 0;
+    color: grey;
+}
+
+.album__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album__button--dance {
+    margin: 0;
+    padding: 5px 15px;
+    background-color: pink;
+    outline: none;
+    border-radius: 18px;
+}
+
+.album__button--heart {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    background-color: white;
+}

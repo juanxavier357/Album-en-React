@@ -1,0 +1,18 @@
+body {
+    justify-content: center;
+}
+
+#root {
+    display: flex;
+    background-color: white;
+}
+
+.album__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.album__buttons button {
+    background-color: pink;
+}
